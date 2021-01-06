@@ -289,8 +289,8 @@ a:active {
   background-image: linear-gradient(to right, #1f1f1f 0%, #e6007a 100%);
 }
 .btn:before {
-  background-image: -webkit-linear-gradient(left, #e6007a 0%, #1f1f1f 100%);
-  background-image: linear-gradient(to right, #e6007a 0%, #1f1f1f 100%);
+  background-image: -webkit-linear-gradient(left, #e6007a 0%, #e6007a 100%);
+  background-image: linear-gradient(to right, #e6007a 0%, #e6007a 100%);
 }
 .btn.btn-alt {
   background-image: -webkit-linear-gradient(left, #1f1f1f 0%, #e6007a 100%);
@@ -596,7 +596,7 @@ a:active {
 }
 
 .social li a:hover {
-  background: #1f1f1f;
+  background: #000000;
 }
 
 .select2-container--default

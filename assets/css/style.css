@@ -3090,9 +3090,9 @@ select:focus {
 
 .language-switcher .dropdown-menu {
   border: none;
-  background: #555555;
+  background: #222222;
   min-width: 46px;
-  margin-left: 2px;
+  margin-left: 12px;
 }
 .language-switcher .dropdown-item {
   padding: 0 15px;
@@ -3611,12 +3611,12 @@ select:focus {
   background-image: linear-gradient(to right, #222222 0%, #e6007a 100%);
 }
 .btn.btn-alt {
-  background-image: -webkit-linear-gradient(left, #7a0fff 0%, #222222 100%);
-  background-image: linear-gradient(to right, #7a0fff 0%, #222222 100%);
+  background-image: -webkit-linear-gradient(left, #e6007a 0%, #222222 100%);
+  background-image: linear-gradient(to right, #e6007a 0%, #222222 100%);
 }
 .btn.btn-alt:before {
-  background-image: -webkit-linear-gradient(left, #222222 0%, #7a0fff 100%);
-  background-image: linear-gradient(to right, #222222 0%, #7a0fff 100%);
+  background-image: -webkit-linear-gradient(left, #222222 0%, #e6007a 100%);
+  background-image: linear-gradient(to right, #222222 0%, #e6007a 100%);
 }
 .btn:hover:before {
   opacity: 1;
@@ -3920,7 +3920,7 @@ select:focus {
   background: transparent;
 }
 .io-azure .btn.btn-outline:after {
-  background: #e6007a;
+  background: #000000;
 }
 .io-azure .section-pro .btn.btn-outline,
 .io-azure .section-pro-alt .btn.btn-outline {
@@ -5742,8 +5742,8 @@ select:focus {
   margin: 0 4px;
 }
 .social li a {
-  color: #3c3c3c;
-  background: #fff;
+  color: #ffffff;
+  background: #e6007a;
   display: inline-block;
   height: 30px;
   width: 30px;
@@ -5753,7 +5753,7 @@ select:focus {
   line-height: 30px;
 }
 .social li a:hover {
-  background: #7a0fff;
+  background: #000000;
   color: #fff;
 }
 
@@ -6382,7 +6382,7 @@ select:focus {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #7a0fff;
+  border-top-color: #ffffff;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
