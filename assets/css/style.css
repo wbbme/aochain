@@ -3071,6 +3071,7 @@ select:focus {
   font-size: 0.85em;
   padding: 0 17px;
   position: relative;
+  display: block;
 }
 .language-switcher > a:hover,
 .language-switcher > a:focus {
@@ -3078,12 +3079,15 @@ select:focus {
 }
 .language-switcher > a:after {
   position: absolute;
-  top: -2px;
-  right: 2px;
+  top: 0px;
+  right: 0px;
   font-family: themify;
   content: "\e64b";
-  font-size: 7px;
+  font-size: 12px;
+  display: block;
 }
+
+
 .language-switcher .dropdown-menu {
   border: none;
   background: #555555;
@@ -3101,7 +3105,7 @@ select:focus {
   background: transparent;
 }
 .footer-scetion .language-switcher > a:after {
-  top: -0.35rem;
+  top: 0rem;
 }
 
 .navbar-toggler {
@@ -3321,7 +3325,7 @@ select:focus {
     margin: 0 6.5px;
   }
   .header-image {
-    /* @v1.1.0 s */ /* @v1.1.0 e */
+    /* @v1.1.0 s @v1.1.0 e */
   }
   .header-image .left-icon {
     margin-left: -3px;
@@ -4154,7 +4158,7 @@ select:focus {
   background: linear-gradient(to right, #e6007a 0%, #222222 100%);
 }
 .io-azure .countdown-box .token-countdown .countdown-text {
-  color: #340075;
+  color: #e6007a;
 }
 .io-azure .countdown-box .btn.btn-alt {
   padding-left: 40px;
@@ -4750,72 +4754,64 @@ select:focus {
   background: #ebf3fc;
 }
 .single-roadmap-alt.gradiant-ctob:before {
-  background: linear-gradient(
-    to right,
-    rgb(31, 31, 31) 0%,
-    rgb(230, 0, 122) 100%
-  );
+  background-image: linear-gradient(to right, #e6007a 0%, #ccc 100%);
 }
 .single-roadmap-alt.gradiant-ctob:after {
-  border-color: #7a0fff;
+  border-color: #ffffff;
 }
 .single-roadmap-alt.gradiant-ctob h5:before,
 .single-roadmap-alt.gradiant-ctob h6:before {
-  background: #7a0fff;
+  background: #e6007a;
 }
 .single-roadmap-alt.gradiant-btoa:before {
-  background: linear-gradient(
-    to right,
-    rgb(230, 0, 122) 0%,
-    rgb(31, 31, 31) 100%
-  );
+  background-image: linear-gradient(to right, #ccc 0%, #e6007a 100%);
 }
 .single-roadmap-alt.gradiant-btoa:after {
-  border-color: #222222;
+  border-color: #ffffff;
 }
 .single-roadmap-alt.gradiant-btoa h5:before,
 .single-roadmap-alt.gradiant-btoa h6:before {
-  background: #222222;
+  background: #e6007a;
 }
 .single-roadmap-alt.gradiant-atob:before {
-  background-image: linear-gradient(to right, #222222 0%, #7a0fff 100%);
+  background-image: linear-gradient(to right, #e6007a 0%, #ccc 100%);
 }
 .single-roadmap-alt.gradiant-atob:after {
-  border-color: #7a0fff;
+  border-color: #cccccc;
 }
 .single-roadmap-alt.gradiant-atob h5:before,
 .single-roadmap-alt.gradiant-atob h6:before {
-  background: #7a0fff;
+  background: #cccccc;
 }
 .single-roadmap-alt.gradiant-btoc:before {
-  background-image: linear-gradient(to right, #7a0fff 0%, #e6007a 100%);
+  background-image: linear-gradient(to right, #ccc 0%, #ccc 100%);
 }
 .single-roadmap-alt.gradiant-btoc:after {
-  border-color: #e6007a;
+  border-color: #cccccc;
 }
 .single-roadmap-alt.gradiant-btoc h5:before,
 .single-roadmap-alt.gradiant-btoc h6:before {
-  background: #e6007a;
+  background: #cccccc;
 }
 .single-roadmap-alt.gradiant-ctoa:before {
-  background-image: linear-gradient(to right, #e6007a 0%, #222222 100%);
+  background-image: linear-gradient(to right, #ccc 0%, #ccc 100%);
 }
 .single-roadmap-alt.gradiant-ctoa:after {
-  border-color: #222222;
+  border-color: #cccccc;
 }
 .single-roadmap-alt.gradiant-ctoa h5:before,
 .single-roadmap-alt.gradiant-ctoa h6:before {
-  background: #222222;
+  background: #cccccc;
 }
 .single-roadmap-alt.gradiant-atoc:before {
-  background-image: linear-gradient(to right, #222222 0%, #e6007a 100%);
+  background-image: linear-gradient(to right, #ccc 0%, #ccc 100%);
 }
 .single-roadmap-alt.gradiant-atoc:after {
-  border-color: #e6007a;
+  border-color: #cccccc;
 }
 .single-roadmap-alt.gradiant-atoc h5:before,
 .single-roadmap-alt.gradiant-atoc h6:before {
-  background: #e6007a;
+  background: #cccccc;
 }
 .single-roadmap-alt h5,
 .single-roadmap-alt h6 {
@@ -5908,7 +5904,7 @@ select:focus {
   color: #8284a5;
 }
 .link-widget li a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-links {
