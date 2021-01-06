@@ -3197,7 +3197,7 @@ select:focus {
   /* background-image: -webkit-linear-gradient(top left, #000 0%, #555 100%);
   background-image: -o-linear-gradient(top left, #000 0%, #555 100%);
   background-image: linear-gradient(to bottom right, #000 0%, #222 100%); */
-  background-size: contain, cover;
+  background-size: cover;
 }
 
 .header-image {
@@ -4042,7 +4042,7 @@ select:focus {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-top: -10px;
+  /* margin-top: -10px; */
   margin-right: -10px;
   transform: translate(-50%, -50%);
 }
